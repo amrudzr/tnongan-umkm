@@ -1,0 +1,130 @@
+// File: scripts/data.js
+// Berisi data produk yang terpisah dari logika.
+
+// Kategori yang kita gunakan:
+// - Kue Tradisional: Kue klasik (Kue Bulan, Onde-onde, Kue Mangkok)
+// - Pastri China: Roti atau kue panggang (Bakpia, Egg Tart)
+// - Kue Spesial: Kue untuk perayaan (Kue Keranjang, Fa Gao)
+
+const products = [
+  {
+    id: 1,
+    name: "Kue Bulan Signature (Lotus)",
+    category: "Kue Tradisional",
+    price: 75000,
+    image: "https://images.unsplash.com/photo-1593874314338-788b9d75073e?q=80&w=870&auto=format&fit=crop",
+    tags: ["signature", "manis", "premium"],
+  },
+  {
+    id: 2,
+    name: "Onde-onde Wijen",
+    category: "Kue Tradisional",
+    price: 5000,
+    image: "https://www.tionghoa.info/wp-content/uploads/2015/11/onde-onde.jpg",
+    tags: ["best seller", "manis", "kenyal", "kacang hijau"],
+  },
+  {
+    id: 3,
+    name: "Bakpia Kacang Hijau",
+    category: "Pastri China",
+    price: 35000,
+    image: "https://belirus.com/wp-content/uploads/2022/01/Bisnis-Kue-Pia-1200px-x-675px.jpg",
+    tags: ["box", "manis", "kacang hijau"],
+  },
+  {
+    id: 4,
+    name: "Kue Keranjang (Nian Gao)",
+    category: "Kue Spesial",
+    price: 40000,
+    image: "https://hypeabis.id/assets/content/20220131215646000000TikoyFaGaoKueBakul.jpg",
+    tags: ["imlek", "manis", "kenyal"],
+  },
+  {
+    id: 5,
+    name: "Kue Mangkok Mekar",
+    category: "Kue Spesial",
+    price: 6000,
+    image: "https://storage.googleapis.com/bakingworld-web-production/uploads/media/content_banner/b-kue-mangkok-1754557063001.jpg",
+    tags: ["kukus", "manis", "lembut"],
+  },
+  {
+    id: 6,
+    name: "Egg Tart (Dan Ta)",
+    category: "Pastri China",
+    price: 12000,
+    image: "https://images.unsplash.com/photo-1543598218-641d48d6c0b3?q=80&w=870&auto=format&fit=crop",
+    tags: ["manis", "lembut", "susu", "telur"],
+  },
+  {
+    id: 7,
+    name: "Kue Bulan Red Bean",
+    category: "Kue Tradisional",
+    price: 70000,
+    image: "https://images.unsplash.com/photo-1602050215420-9110d948c7a1?q=80&w=870&auto=format&fit=crop",
+    tags: ["manis", "kacang merah", "premium"],
+  },
+  {
+    id: 8,
+    name: "Kue Ku (Ang Ku Kueh)",
+    category: "Kue Tradisional",
+    price: 7000,
+    image: "https://images.unsplash.com/photo-1617188365113-f9a6b1c676b7?q=80&w=870&auto=format&fit=crop",
+    tags: ["kenyal", "kacang hijau", "manis"],
+  },
+  {
+    id: 9,
+    name: "Fa Gao (Kue Keberuntungan)",
+    category: "Kue Spesial",
+    price: 8000,
+    image: "https://images.unsplash.com/photo-1674837535560-c360c7e5a87b?q=80&w=871&auto=format&fit=crop",
+    tags: ["imlek", "manis", "kukus", "lembut"],
+  },
+  {
+    id: 10,
+    name: "Roti Nanas (Bolo Bao)",
+    category: "Pastri China",
+    price: 15000,
+    image: "https://images.unsplash.com/photo-1628172346743-f1c3d186c87e?q=80&w=870&auto=format&fit=crop",
+    tags: ["manis", "roti", "lembut"],
+  },
+  {
+    id: 11,
+    name: "Kue Bulan Pandan",
+    category: "Kue Tradisional",
+    price: 70000,
+    image: "https://images.unsplash.com/photo-1695427133373-b3dd33835f8d?q=80&w=870&auto=format&fit=crop",
+    tags: ["manis", "pandan", "premium"],
+  },
+  {
+    id: 12,
+    name: "Bakpia Keju (Kreasi Baru)",
+    category: "Pastri China",
+    price: 45000,
+    image: "https://images.unsplash.com/photo-1620711463137-7c5746019b7d?q=80&w=870&auto=format&fit=crop",
+    tags: ["box", "manis", "asin", "keju"],
+  },
+  {
+    id: 13,
+    name: "Kue Lapis Legit",
+    category: "Kue Tradisional",
+    price: 150000,
+    image: "https://images.unsplash.com/photo-1624923148236-c00c732c5f12?q=80&w=870&auto=format&fit=crop",
+    tags: ["premium", "manis", "loyang"],
+  },
+  {
+    id: 14,
+    name: "Mooncake Aneka Rasa (Mini)",
+    category: "Kue Tradisional",
+    price: 120000,
+    image: "https://images.unsplash.com/photo-1568838570303-036f011d8481?q=80&w=870&auto=format&fit=crop",
+    tags: ["box", "manis", "premium", "koleksi"],
+  },
+  {
+    id: 15,
+    name: "Onde-onde Ketan Hitam",
+    category: "Kue Tradisional",
+    price: 6000,
+    image: "https://plus.unsplash.com/premium_photo-1697209923018-b26a6c0c282a?q=80&w=870&auto=format&fit=crop",
+    tags: ["manis", "kenyal", "ketan hitam"],
+  },
+];

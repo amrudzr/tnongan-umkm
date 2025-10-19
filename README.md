@@ -81,16 +81,3 @@ Website ini sepenuhnya statis.
 1.  Pastikan semua file (`index.html`, `menu.html`, `about.html`, folder `scripts/` beserta isinya) berada dalam struktur folder yang benar.
 2.  Buka file **`index.html`** langsung di browser Anda (misal, klik kanan > "Open with" > Pilih browser).
 3.  Navigasi antar halaman dapat dilakukan melalui menu di *header*.
-
----
-
-## Identitas Developer
-
-* **Nama:** Amru Dzaky Ramadhan
-* **NIM:** V3424087
-* **Kelas:** C
-* **Mata Kuliah:** Pemrograman Front-End
-* **Dosen Pengampu:** Nanang Maulana Yoeseph
-```
-
------
